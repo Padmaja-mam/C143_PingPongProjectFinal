@@ -1,0 +1,76 @@
+body
+{
+background : url("https://static.vecteezy.com/system/resources/previews/001/819/325/non_2x/perspective-ping-pong-table-design-illustration-isolated-on-dark-background-vector.jpg");
+background-size: contain;
+text-align : center;
+}
+
+h1
+{
+color : lime;
+width : 100%;
+height : 70px;
+}
+
+#instructions
+{
+    background-color: lawngreen;
+    color : magenta;
+    width : 135px;
+    height : 60px;
+    font-size: large;
+    right : 15px;
+    top : 30px;
+    position : absolute;
+    border: 1px solid white;
+    display: inline-block;
+}
+#start
+{
+    background-color: magenta;
+    color : white;
+    width : 235px;
+    height : 50px;
+    font-size: large;
+    border-radius: 20px;
+    border : 3px solid lime;
+}
+
+
+#restart
+{
+    background-color: magenta;
+    color : white;
+    width : 120px;
+    height : 40px;
+    font-size: large;
+    border-radius: 20px;
+    bottom : 50px;
+    left : 610px;
+    position : absolute;
+    border: 3px solid lime;
+}
+
+footer
+{
+    position : fixed;
+    bottom : 3px;
+    width : 100%;
+    background-color: lime;
+    color : white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border : 3px solid white;
+}
+
+#go
+{
+    font-size : x-large;
+    color : red;
+}
+
+canvas
+{
+    border : 5px ridge magenta;
+    border-radius : 30px;
+}
